@@ -10,7 +10,10 @@ module.exports = {
       colors:{
         navbar:"#d5d5d5",
         headingColor:"#a18a4d",
-        news:"#f2f2f2"
+        news:"#f2f2f2",
+        footer:"#333",
+        footerText:"#fff",
+        borderColor:"#5c5c5c",
       },
       backgroundImage:{
         'hero': "url('/images/gate-profissionais_02.format-jpeg.jpg')",
