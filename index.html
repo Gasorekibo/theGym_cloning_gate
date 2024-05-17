@@ -1,54 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/output.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/output.css" />
     <title></title>
-</head>
-<body class="font-lato">
-
-   <header class="bg-navbar">
-    <nav class="bg-[#212529] text-white hidden lg:flex lg:px-32  ">
-        <div class="flex ">
-            <p class="flex items-center gap-0">
-                <span>About University</span>
-                <img src="images/SolidChevronDownLittleGray.svg" alt="" class="h-12 ">
-            </p>
-            <p class="flex items-center gap-0">
-                <span>Faculties</span>
-                <img src="images/SolidChevronDownLittleGray.svg" alt="" class="h-12 ">
-            </p>
+  </head>
+  <body class="font-lato">
+    <header class="bg-navbar">
+      <nav class="bg-[#212529] text-white hidden lg:flex lg:px-32">
+        <div class="flex">
+          <p class="flex items-center gap-0">
+            <span>About University</span>
+            <img
+              src="images/SolidChevronDownLittleGray.svg"
+              alt=""
+              class="h-12"
+            />
+          </p>
+          <p class="flex items-center gap-0">
+            <span>Faculties</span>
+            <img
+              src="images/SolidChevronDownLittleGray.svg"
+              alt=""
+              class="h-12"
+            />
+          </p>
         </div>
         <div>
-            <img src="images/" alt="">
+          <img src="images/" alt="" />
         </div>
-    </nav>
-    <nav class="hidden lg:flex lg: justify-between lg:px-32 lg:py-7 lg:items-center ">
-        <img src="images/logo.png" alt="" class="h-2/3  ">
-        <ul class="flex gap-4 font-bold ">
-            <li>STUDY</li>
-            <li>RESEARCH</li>
-            <li>INOVATE</li>
-            <li>LIVE</li>
-            <li class="mr-6">EXPLORE</li>
-            <p class="flex  items-center gap-8 border-b-[1px] border-black font-normal  ">
-                <span>Search</span>
-                <img src="images/search.png" alt="" class="h-5  ">
-            </p>
+      </nav>
+      <nav
+        class="hidden lg:flex lg: justify-between lg:px-32 lg:py-7 lg:items-center"
+      >
+        <img src="images/logo.png" alt="" class="h-2/3" />
+        <ul class="flex gap-4 font-bold">
+          <li>STUDY</li>
+          <li>RESEARCH</li>
+          <li>INOVATE</li>
+          <li>LIVE</li>
+          <li class="mr-6">EXPLORE</li>
+          <p
+            class="flex items-center gap-8 border-b-[1px] border-black font-normal"
+          >
+            <span>Search</span>
+            <img src="images/search.png" alt="" class="h-5" />
+          </p>
         </ul>
-    </nav>
-   </header> 
-   <!-- End of navigation -->
+      </nav>
+    </header>
+    <!-- End of navigation -->
 
-   <section class="lg:h-screen">
-    <div class="lg:bg-hero h-full   bg-contain  lg:relative">
-    <div class="bg-[rgba(51,51,51,.9)] text-white lg:absolute lg:bottom-52 lg:left-24 lg:h-2/5 lg:text-left lg:w-2/6 lg:space-y-5  lg:py-6  lg:px-4">
-        <h1 class="font-bold text-3xl  opacity-80  ">Application For Internatioanl student 2024</h1>
-        <p class=" opacity-80  ">More than 14,0000 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, quas? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, quas? </p>
-        <button class="bg-headingColor px-2  py-1  font-bold text-black  ">See More</button>
-    </div>
-    </div>
-   </section>
-</body>
+    <section class="lg:h-screen">
+      <div class="lg:bg-hero h-full bg-contain lg:relative">
+        <div
+          class="bg-[rgba(51,51,51,.9)] text-white lg:absolute lg:bottom-52 lg:left-24 lg:h-2/5 lg:text-left lg:w-2/6 lg:space-y-5 lg:py-6 lg:px-4"
+        >
+          <h1 class="font-bold text-3xl opacity-80">
+            Application For Internatioanl student 2024
+          </h1>
+          <p class="opacity-80">
+            More than 14,0000 Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Fuga, quas? Lorem ipsum, dolor sit amet
+            consectetur adipisicing elit. Fuga, quas?
+          </p>
+          <button class="bg-headingColor px-2 py-1 font-bold text-black">
+            See More
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- DONE WITH HERO SECTION -->
+
+    <section class="lg:px-32 lg:py-12">
+      <div class="lg:grid lg:grid-cols-4 lg:gap-10 border-b-2">
+        <div class="space-y-4">
+          <h1 class="text-3xl text-headingColor">Study</h1>
+          <h3 class="text-2xl font-bold">Your future is here</h3>
+        </div>
+
+        <p class="lg:col-span-3 lg:items-center lg:py-10 lg:px-28 opacity-80">
+          Gathering the most complete offer of training programmes in Portugal,
+          the 14 faculties of the U.Porto offer unique conditions to those who
+          want to build an academic path of excellence and properly valued by
+          the labour market.
+        </p>
+      </div>
+      <div class="lg:grid lg:grid-cols-4 lg:gap-10 py-3">
+        <h1 class="col-span-4 text-3xl py-6">
+          Which course are you looking for?
+        </h1>
+        <div class="col-span-3 space-y-3">
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="All"
+            class="w-full border-2 border-black h-2/6 placeholder:font-bold placeholder:text-black pl-3"
+          />
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="Please Enter course keyword..."
+            class="w-full border-2 border-black h-2/6 placeholder:font-bold pl-3"
+          />
+          <button
+            class="w-full bg-headingColor text-center h-2/6 text-white font-bold"
+          >
+            Search
+          </button>
+        </div>
+        <div class="underline text-xl space-y-2">
+          <h1 class="font-bold">Courses from A to Z:</h1>
+          <p>Bachelor's and Integrated Degree</p>
+          <p>Master’s Degrees</p>
+          <p>Doctorate</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- END OF STUDY SECTION -->
+    <section class="bg-news lg:px-32 lg:h-screen">
+      <h1 class="lg:flex lg:justify-between">
+        <span class="text-3xl text-headingColor tracking-tracking-widest py-5"
+          >News</span
+        >
+        <p class="flex gap-2 items-center">
+          <span class="font-bold text-headingColor">All news</span>
+          <img
+            src="images/ChevronRightLittle.svg "
+            alt=""
+            class="h-4 bg-headingColor rounded-full"
+          />
+        </p>
+      </h1>
+      <div
+        class="lg:grid lg:grid-cols-3 lg:grid-rows-2 bg-white gap-8 lg:h-full"
+      >
+        <div class="lg:grid lg:grid-rows-2">
+          <div class="lg:px-4 lg:py-3 lg:space-y-4 lg:relative">
+            <span class="text-headingColor font-bold">Desporto</span>
+            <h1 class="font-extrabold opacity-80 text-xl">
+              U.Porto vai organizar Europeu Universitário de Futebol em 2027
+            </h1>
+            <span class="lg:absolute lg:bottom-3 lg:opacity-80"
+              >14 May 2024</span
+            >
+          </div>
+          <div class="w-full">
+            <img
+              src="images/aerea-frente-edificios.jpg"
+              alt=""
+              class="object-contain"
+            />
+          </div>
+        </div>
+        <div class="lg:grid lg:grid-rows-2">
+          <div class="lg:px-4 lg:py-3 lg:space-y-4 lg:relative">
+            <span class="text-headingColor font-bold">
+              Campus e Comunidade | Ciência e Inovação | Multimédia |
+              Vídeo</span
+            >
+            <h1 class="font-extrabold opacity-80 text-xl">
+              Mais de 1000 estudantes foram ao IJUP “abrir as portas” da Ciência
+            </h1>
+            <span class="lg:absolute lg:bottom-3 lg:opacity-80"
+              >13 May 2024</span
+            >
+          </div>
+          <div class="">
+            <img src="images/ijup-2024_31.jpg" alt="" class="object-contain" />
+          </div>
+        </div>
+        <div class="lg:grid lg:grid-rows-2">
+          <div class="lg:px-4 lg:py-3 lg:space-y-4 lg:relative">
+            <span class="text-headingColor font-bold">Caltura</span>
+            <h1 class="font-extrabold opacity-80 text-xl">
+              MHNC-UP abre “fora de horas” para celebrar os Museus e a Ciência
+            </h1>
+            <span class="lg:absolute lg:bottom-3 lg:opacity-80"
+              >11 May 2024</span
+            >
+          </div>
+          <div class="">
+            <img
+              src="images/peddy-paper-mentoria-mhnc-up_02.jpg"
+              alt=""
+              class="object-contain"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="flex gap-2">
+        <img
+          src="images/ChevronRightLittle.svg"
+          alt=""
+          class="bg-gray-400 lg:h-10"
+        />
+        <img
+          src="images/ChevronLeftLittle.svg"
+          alt=""
+          class="bg-headingColor lg:h-10"
+        />
+      </div>
+    </section>
+    <!-- END OF NEWS SECTION -->
+    <section class="lg:grid lg:grid-cols-2 px-32 border-b-2 lg:my-20 py-9">
+      <div class="bg-minerva bg-right">
+        <h1 class="lg:text-center lg:text-5xl lg:py-16 text-headingColor">
+          We are a University of Excellence!
+        </h1>
+      </div>
+      <div class="space-y-4">
+        <p>
+          With over 100 years of history, the University of Porto is a
+          <strong
+            >leading teaching and scientific research institution in Portugal
+            and worldwide</strong
+          >
+        </p>
+        <p>
+          Considered
+          <strong
+            >the best Portuguese University and one of the best 100 European
+            institutions</strong
+          >
+          according to the most important Higher Education rankings, U.Porto
+          combines quality teaching and excellent research with the best
+          academic experience.
+        </p>
+        <p>
+          With over 100 years of history, the University of Porto is a
+          <strong
+            >leading teaching and scientific research institution in Portugal
+            and worldwide</strong
+          >
+        </p>
+        <p>We are waiting for you!</p>
+        <p class="flex items-center gap-2">
+          <span class="font-bold text-xl text-headingColor">see more</span>
+          <img
+            src="images/ChevronRightLittle.svg"
+            alt=""
+            class="h-4 bg-headingColor rounded-full"
+          />
+        </p>
+      </div>
+    </section>
+    <!-- END OF INFO SECTION -->
+    <section class="lg:px-32 lg:space-y-5 lg:my-6">
+      <h1 class="text-4xl text-headingColor">Research</h1>
+      <div class="lg:grid lg:grid-cols-2 gap-7">
+        <div class="space-y-4">
+          <h1 class="text-2xl font-bold">Research University</h1>
+          <p>
+            With 48 research units and a highly qualified scientific community,
+            the University of Porto is
+            <strong>one of the largest producers of science in Portugal</strong
+            >, contributing to almost 25% of all national scientific output.
+          </p>
+          <p>
+            The excellence of our scientific ecosystem is particularly evident
+            <span
+              >in the leading position the University occupies in the main
+              international rankings of Higher Education.</span
+            >
+          </p>
+        </div>
+        <div class=" ">
+          <img
+            src="images/investigar-home_destaque.format-jpeg.jpg"
+            alt=""
+            class="h-full bg-contain bg-no-repeat w-full"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- END OF RESEARCH SECTION -->
+    <section class="bg-headingColor lg:my-16">
+      <div class="border-b-2 border-white ">
+        <img src="images/microphone.png" alt="" />
+        <h1>U.PORTO IN FIGURES 2022/2023</h1>
+        <p>
+            <span>Learn more</span>
+            <img src="images/grayRight.png" alt="" class="h-11 ">
+        </p>
+      </div>
+    </section>
+  </body>
 </html>

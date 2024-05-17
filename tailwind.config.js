@@ -14,8 +14,8 @@ module.exports = {
       },
       backgroundImage:{
         'hero': "url('/images/gate-profissionais_02.format-jpeg.jpg')",
-        'scholar':"url('/images/Scholarship_homepage.jpg')",
-        'vlatan': "url('/images/VRLatham.jpg')",
+        'minerva':"url('/images/minerva_01.png')",
+        'pro': "url('/images/investigar-home_destaque.format-jpeg.jpg')",
         'drawing': "url('/images/Untitled-1_0001_DSC07057.jpg')",
         'research':"url('/images/research-girl.jpg')",
         'daniel': "url('/images/Daniel-and-John-edit.jpg')",
