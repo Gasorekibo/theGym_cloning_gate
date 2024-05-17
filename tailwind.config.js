@@ -5,15 +5,15 @@ module.exports = {
     
     extend: {
       fontFamily:{
-        roboto:["Roboto Flex", "sans-serif"]
+        lato:["Lato", "sans-serif"]
       },
       colors:{
-        warning:"#ff5800",
-        primary:"#376ebe",
-        footer:"#333"
+        navbar:"#d5d5d5",
+        headingColor:"#a18a4d",
+        news:"#f2f2f2"
       },
       backgroundImage:{
-        'hero': "url('/images/outline.png')",
+        'hero': "url('/images/gate-profissionais_02.format-jpeg.jpg')",
         'scholar':"url('/images/Scholarship_homepage.jpg')",
         'vlatan': "url('/images/VRLatham.jpg')",
         'drawing': "url('/images/Untitled-1_0001_DSC07057.jpg')",
