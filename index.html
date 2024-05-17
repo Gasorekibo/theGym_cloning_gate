@@ -46,6 +46,13 @@
             <p class="font-bold ">EN</p>
           </div>
       </nav>
+      <nav class="flex justify-between px-6 md:hidden py-5 sticky top-0">
+        <div class="flex gap-3 ">
+          <img src="images/menu.png" alt="" class="w-10  object-contain ">
+        <img src="images/c515dc07-8ca3-4831-90fd-15e33cca2f18.png" alt="" class="w-2/4   object-cover   ">
+        </div>
+        <img src="images/b5df8019-46ca-4497-9253-7f681238fd4f.png" alt="" class="w-10  object-contain">
+      </nav>
       <nav
         class="hidden lg:flex lg: justify-between lg:px-32 lg:py-7 lg:items-center"
       >
@@ -67,20 +74,20 @@
     </header>
     <!-- End of navigation -->
 
-    <section class="lg:h-screen">
-      <div class="lg:bg-hero h-full bg-contain lg:relative">
+    <section class="lg:h-screen h-80 ">
+      <div class="bg-hero h-full bg-contain lg:relative">
         <div
-          class="bg-[rgba(51,51,51,.9)] text-white lg:absolute lg:bottom-52 lg:left-24 lg:h-2/5 lg:text-left lg:w-2/6 lg:space-y-5 lg:py-6 lg:px-4"
+          class="bg-[rgba(51,51,51,.9)] text-white lg:absolute lg:bottom-52 lg:left-24 lg:h-2/5 lg:text-left lg:w-2/6 lg:space-y-5 lg:py-6 lg:px-4 relative -bottom-56 px-4"
         >
-          <h1 class="font-bold text-3xl opacity-80">
+          <h1 class="text-xl lg:font-bold lg:text-3xl opacity-80">
             Application For Internatioanl student 2024
           </h1>
-          <p class="opacity-80">
+          <p class="opacity-80 hidden lg:block ">
             More than 14,0000 Lorem ipsum, dolor sit amet consectetur
             adipisicing elit. Fuga, quas? Lorem ipsum, dolor sit amet
             consectetur adipisicing elit. Fuga, quas?
           </p>
-          <button class="bg-headingColor px-2 py-1 font-bold text-black">
+          <button class="bg-headingColor lg:px-2 lg:py-1 font-bold text-black px-2 ">
             See More
           </button>
         </div>
@@ -88,14 +95,14 @@
     </section>
     <!-- DONE WITH HERO SECTION -->
 
-    <section class="lg:px-32 lg:py-12">
-      <div class="lg:grid lg:grid-cols-4 lg:gap-10 border-b-2">
-        <div class="space-y-4">
+    <section class="px-4 lg:py-12   lg:px-32  ">
+      <div class="lg:grid lg:grid-cols-4 lg:gap-10 lg: border-b-2 py-10  lg:py-0 ">
+        <div class=" space-y-7 lg:space-y-4">
           <h1 class="text-3xl text-headingColor">Study</h1>
           <h3 class="text-2xl font-bold">Your future is here</h3>
         </div>
 
-        <p class="lg:col-span-3 lg:items-center lg:py-10 lg:px-28 opacity-80">
+        <p class="lg:col-span-3 lg:items-center lg:py-10 lg:px-28 opacity-80 py-4">
           Gathering the most complete offer of training programmes in Portugal,
           the 14 faculties of the U.Porto offer unique conditions to those who
           want to build an academic path of excellence and properly valued by
@@ -112,22 +119,22 @@
             name=""
             id=""
             placeholder="All"
-            class="w-full border-2 border-black h-2/6 placeholder:font-bold placeholder:text-black pl-3"
+            class="w-full border-2 border-black py-3 lg:py-0  lg:h-2/6 placeholder:font-bold placeholder:text-black pl-3"
           />
           <input
             type="text"
             name=""
             id=""
             placeholder="Please Enter course keyword..."
-            class="w-full border-2 border-black h-2/6 placeholder:font-bold pl-3"
+            class="w-full border-2 border-black py-3 lg:py-0  lg:h-2/6 placeholder:font-bold pl-3"
           />
           <button
-            class="w-full bg-headingColor text-center h-2/6 text-white font-bold"
+            class="w-full bg-headingColor text-center py-3 lg:py-0 lg:h-2/6 text-white font-bold"
           >
             Search
           </button>
         </div>
-        <div class="underline text-xl space-y-2">
+        <div class="underline text-xl space-y-2 py-16 lg:py-0 ">
           <h1 class="font-bold">Courses from A to Z:</h1>
           <p>Bachelor's and Integrated Degree</p>
           <p>Master’s Degrees</p>
@@ -137,7 +144,7 @@
     </section>
 
     <!-- END OF STUDY SECTION -->
-    <section class="bg-news lg:px-32 lg:py-14 lg:space-y-3  ">
+    <section class="bg-news lg:px-32 py-14 space-y-5   lg:space-y-3 px-4 ">
       <h1 class="lg:flex lg:justify-between">
         <span class="text-3xl text-headingColor tracking-tracking-widest py-5"
           >News</span
@@ -152,15 +159,15 @@
         </p>
       </h1>
       <div
-        class="lg:grid lg:grid-cols-3 bg-white gap-8"
+        class="lg:grid lg:grid-cols-3 bg-white gap-8 "
       >
         <div class="lg:grid lg:grid-rows-2">
-          <div class="lg:px-4 lg:py-3 lg:space-y-4 lg:relative">
+          <div class="lg:px-4 lg:py-3 lg:space-y-4 lg:relative px-2 pb-24 pt-5  space-y-6 ">
             <span class="text-headingColor font-bold">Desporto</span>
             <h1 class="font-extrabold opacity-80 text-xl">
               U.Porto vai organizar Europeu Universitário de Futebol em 2027
             </h1>
-            <span class="lg:absolute lg:bottom-3 lg:opacity-80"
+            <span class="lg:absolute lg:bottom-3 lg:opacity-80 relative -bottom-16"
               >14 May 2024</span
             >
           </div>
@@ -172,7 +179,7 @@
             />
           </div>
         </div>
-        <div class="lg:grid lg:grid-rows-2">
+        <div class=" hidden lg:grid lg:grid-rows-2">
           <div class="lg:px-4 lg:py-3 lg:space-y-4 lg:relative">
             <span class="text-headingColor font-bold">
               Campus e Comunidade | Ciência e Inovação | Multimédia |
@@ -189,7 +196,7 @@
             <img src="images/ijup-2024_31.jpg" alt="" class="object-contain" />
           </div>
         </div>
-        <div class="lg:grid lg:grid-rows-2">
+        <div class=" hidden lg:grid lg:grid-rows-2">
           <div class="lg:px-4 lg:py-3 lg:space-y-4 lg:relative">
             <span class="text-headingColor font-bold">Caltura</span>
             <h1 class="font-extrabold opacity-80 text-xl">
@@ -212,19 +219,19 @@
         <img
           src="images/ChevronRightLittle.svg"
           alt=""
-          class="bg-gray-400 h-10 lg:mt-7 "
+          class="bg-headingColor lg:bg-gray-400 h-10 lg:mt-7 "
         />
         <img
           src="images/ChevronLeftLittle.svg"
           alt=""
-          class="bg-headingColor lg:h-10 lg:mt-7"
+          class="bg-headingColor h-10 lg:mt-7"
         />
       </div>
     </section>
     <!-- END OF NEWS SECTION -->
-    <section class="lg:grid lg:grid-cols-2 px-32 border-b-2 lg:my-20 py-9">
-      <div class="bg-minerva bg-right">
-        <h1 class="lg:text-center lg:text-5xl lg:py-16 text-headingColor">
+    <section class="block  lg:grid lg:grid-cols-2 px-2  lg:px-32  border-b-2 lg:my-20 py-9">
+      <div class="bg:none lg:bg-minerva bg-right">
+        <h1 class="lg:text-center text-3xl py-7  lg:text-5xl lg:py-16 text-headingColor">
           We are a University of Excellence!
         </h1>
       </div>
@@ -253,7 +260,7 @@
             and worldwide</strong
           >
         </p>
-        <p>We are waiting for you!</p>
+        <p class="text-xl">We are waiting for you!</p>
         <p class="flex items-center gap-2">
           <span class="font-bold text-xl text-headingColor">see more</span>
           <img
@@ -265,9 +272,9 @@
       </div>
     </section>
     <!-- END OF INFO SECTION -->
-    <section class="lg:px-32 lg:space-y-5 lg:my-6">
+    <section class="px-2 py-10 lg:py-0 space-y-2  lg:px-32 lg:space-y-5 lg:my-6">
       <h1 class="text-4xl text-headingColor">Research</h1>
-      <div class="lg:grid lg:grid-cols-2 gap-7">
+      <div class="lg:grid lg:grid-cols-2 lg:gap-7 space-y-3 lg:space-y-0 ">
         <div class="space-y-4">
           <h1 class="text-2xl font-bold">Research University</h1>
           <p>
@@ -295,17 +302,17 @@
     </section>
     <!-- END OF RESEARCH SECTION -->
     <section
-      class="bg-headingColor lg:my-16 text-white font-bold lg:grid lg:grid-cols-3 lg:px-32"
+      class="bg-headingColor py-10 lg:py-0   lg:my-16 text-white font-bold lg:grid lg:grid-cols-3 lg:px-32 text-center"
     >
-      <div class="lg:py -5 lg:col-span-3 lg:col-start-2 lg:py-12 lg:my-3">
-        <div class="lg:flex lg:justify-between">
-          <div class="space-y-2">
+      <div class="lg:col-span-3 lg:col-start-2 lg:py-12 lg:my-3">
+        <div class="flex justify-between pb-9 lg:pb-0 ">
+          <div class="space-y-2 pl-24 lg:pl-0 ">
             <svg
               viewBox="0 0 512 512"
               height="7em"
               role="img"
               aria-hidden="true"
-              class="fill-white mx-auto"
+              class="fill-white mx-auto  "
             >
               <path
                 d="M386.37156,119.61552l0,0L377.03,100.32491l-.00063.0006L341.68059,27.32932a16.85833,16.85833,0,0,0-22.495-7.81585l-13.48231,6.52888a16.8578,16.8578,0,0,0-7.817,22.49459l2.28919,4.72723L259.74237,95.313l-50.25491,52.26228a6.372,6.372,0,0,0,9.18595,8.83334l50.192-52.19775L306.097,65.49212l82.69114,170.75762L416.52008,293.517,226.95558,311.955,174.08563,202.7771l23.92894-24.88355a6.372,6.372,0,0,0-9.1859-8.83337l-26.216,27.2635-83.54683,40.458a14.97156,14.97156,0,0,0-7.02331,19.79855L47.108,268.65487a16.65948,16.65948,0,0,0-7.72437,22.22985l34.92177,72.11444a16.65962,16.65962,0,0,0,22.2302,7.72508l24.93452-12.07467a14.97216,14.97216,0,0,0,19.88772,6.76682l4.7436-2.29711,48.34754,99.839a37.94762,37.94762,0,1,0,68.30751-33.07825l-48.34754-99.839,10.49647-5.083,197.53514-19.21315,1.92907,3.98358a16.85779,16.85779,0,0,0,22.495,7.81587l13.48231-6.52887a16.85833,16.85833,0,0,0,7.817-22.49457l-9.65871-19.94549a6.37152,6.37152,0,0,0-11.469,5.55394l9.6587,19.94549a4.10078,4.10078,0,0,1-1.90187,5.47158l-13.48231,6.52888a4.10075,4.10075,0,0,1-5.47192-1.90079l-89.6986-185.23011,0,0L309.35535,42.983a4.1008,4.1008,0,0,1,1.90187-5.47158l13.48231-6.52887a4.10079,4.10079,0,0,1,5.472,1.90076l36.67982,75.74485,1.15016,2.37511L434.07728,247.369a6.37155,6.37155,0,0,0,11.46909-5.554l-21.71265-44.83721a43.29593,43.29593,0,0,0,14.53933-54.54943l-.191-.39453A43.295,43.295,0,0,0,386.37156,119.61552ZM115.90691,347.185,90.98158,359.25517a3.90263,3.90263,0,0,1-5.20712-1.81L50.85269,285.33071a3.903,3.903,0,0,1,1.8092-5.20678l24.92533-12.07021ZM251.2885,435.4344a25.20452,25.20452,0,1,1-45.36933,21.97032L157.6816,357.7928l45.36933-21.97032ZM214.64379,315.76867,135.80386,353.9473a2.22,2.22,0,0,1-2.962-1.0292L83.59049,251.21268a2.21981,2.21981,0,0,1,1.02963-2.96124l78.83993-38.17863ZM418.19424,185.33214l-26.18393-54.07055a30.54171,30.54171,0,0,1,34.70219,16.32732l.19069.39378.00075-.00036A30.54256,30.54256,0,0,1,418.19424,185.33214Z"
@@ -315,15 +322,15 @@
             <h1 class="lg:text-3xl">U.PORTO IN FIGURES</h1>
             <p class="text-2xl font-normal">2022/2023</p>
           </div>
-          <p class="flex items-center">
-            <span>Learn more</span>
+          <p class=" relative -top-16  flex items-center">
+            <span class="">Learn more</span>
             <img src="images/grayRight.png" alt="" class="h-9" />
           </p>
         </div>
       </div>
 
       <div
-        class="lg:flex lg:justify-between lg: col-span-3 lg:py-12 lg:px-20 lg:border-t-2 border-white"
+        class="lg:flex lg:justify-between px-2 lg:  col-span-3 lg:py-12 lg:px-20 border-t-2 border-white py-9 space-y-12 lg:space-y-0 "
       >
         <h1 class="flex flex-col items-center gap-2">
           <span class="text-4xl font-extrabold">+300</span>
@@ -340,12 +347,19 @@
       </div>
     </section>
     <!-- END OF STATS SECTION -->
-    <section class="lg:px-32">
-      <h1 class="lg:text-4xl text-headingColor lg:py-5">
+    <section class="px-2 lg:px-32 py-9 lg:py-0 ">
+      <h1 class="text-4xl text-headingColor lg:py-5">
         Frequently asked questions
       </h1>
+      <select name="cars" id="cars" class="lg:hidden w-full py-3 border-2 border-black px-3 text-xl my-4">
+        <option value="" class="">International Students</option>
+        <option value="">Prospective Student</option>
+        <option value="">Professionals</option>
+        <option value="">Alumni</option>
+        <option value="">U.Porto Students</option>
+      </select>
       <ul
-        class="flex justify-start lg:gap-7 text-xl border-b-2 py-2 my-4 opacity-80"
+        class=" hidden lg:flex lg:justify-start lg:gap-7 lg:text-xl border-b-2 py-2 my-4 opacity-80"
       >
         <li class="opacity-100 font-bold">International Students</li>
         <li>Prospective Student</li>
@@ -353,9 +367,9 @@
         <li>Alumni</li>
         <li>U.Porto Students</li>
       </ul>
-      <div class="lg:flex lg:py-6 lg:gap-10">
-        <div class="lg:space-y-5">
-          <h1 class="lg:text-3xl lg:font-bold">International Students</h1>
+      <div class="flex flex-col lg:flex-row   lg:py-6 lg:gap-10">
+        <div class="lg:space-y-5 order-2 lg:order-1  ">
+          <h1 class="text-3xl lg:font-bold py-4 lg:py-0  ">International Students</h1>
           <p>
             Welcome! In this area you will find the answers you need to start
             and make the most of your experience at the University. We hope to
@@ -366,14 +380,14 @@
             <img src="images/grayRight.png" alt="" class="h-9" />
           </p>
         </div>
-        <div>
+        <div class="order-1 lg:order-2 ">
           <img
             src="images/gate-estudantes-internacionais.format-jpeg.jpg"
             alt=""
           />
         </div>
       </div>
-      <div class="flex gap-2 lg:relative lg:-top-16">
+      <div class="hidden lg:flex lg:gap-2 lg:relative lg:-top-16">
         <img
           src="images/ChevronRightLittle.svg"
           alt=""
@@ -388,9 +402,9 @@
     </section>
     <!--   END OF FAQ SECTION -->
     <footer
-      class="lg:px-32 bg-footer  text-footerText lg:py-16 lg:text-sm text-opacity-80 lg:space-y-5"
+      class="lg:px-32 bg-footer  text-footerText lg:py-16 lg:text-sm text-opacity-80 lg:space-y-5 py-14 px-2"
     >
-      <div class="lg:flex lg:justify-between lg:mb-24 ">
+      <div class="lg:flex lg:justify-between lg:mb-24 space-y-3 lg:space-y-0">
         <h1 class="text-xl text-headingColor">Media</h1>
         <div class="space-y-5">
           <p>U.porto News</p>
@@ -406,7 +420,7 @@
           <p>Image Manual</p>
         </div>
       </div>
-      <div class="lg:grid lg:grid-cols-5 gap-20">
+      <div class="lg:grid lg:grid-cols-5 gap-20 py-12 lg:py-0">
         <h1 class="text-xl text-headingColor">U.Porto Portals</h1>
         <div class="space-y-5">
           <p>CDUP - U.Porto Sports Centre</p>
@@ -429,14 +443,14 @@
           <p>SIGARRA U.Porto</p>
         </div>
       </div>
-      <div class="border-t-2 border-borderColor lg:flex lg:justify-between lg:pt-9">
+      <div class="border-t-2 border-borderColor lg:flex lg:justify-between lg:pt-9 py-14 lg:pr-32  ">
         <div class="">
-          <i class="fa-regular fa-newspaper size-12 text-2xl "></i>
-          <i class="fa-brands fa-instagram size-12 text-2xl "></i>
-          <i class="fa-brands fa-youtube size-12 text-2xl "></i>
-          <i class="fa-brands fa-linkedin size-12 text-2xl "></i>
-          <i class="fa-brands fa-x-twitter size-12 text-2xl "></i>
-          <i class="fa-brands fa-facebook-f size-12 text-2xl "></i>
+          <i class="fa-regular fa-newspaper size-12 text-2xl text-white "></i>
+          <i class="fa-brands fa-instagram size-12 text-2xl text-white "></i>
+          <i class="fa-brands fa-youtube size-12 text-2xl text-white "></i>
+          <i class="fa-brands fa-linkedin size-12 text-2xl text-white "></i>
+          <i class="fa-brands fa-x-twitter size-12 text-2xl text-white "></i>
+          <i class="fa-brands fa-facebook-f size-12 text-2xl text-white "></i>
         </div>
         <div class="space-y-4  ">
           <h1 class="font-bold">Contacts</h1>
@@ -451,7 +465,7 @@
           </p>
         </div>
       </div>
-      <p class="space-x-4 ">
+      <p class="space-x-4 flex flex-col lg:block  ">
         <span class="font-bold ">© University of Porto 2024</span>
         <span>Personal Data Protection</span>
         <span>Privacy Policy</span>
